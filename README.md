@@ -1,2 +1,2 @@
 # Frontend-Applications
-Tech track wiki
+Welkom bij mijn wiki voor de tech track 2019.
