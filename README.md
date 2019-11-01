@@ -6,7 +6,9 @@ Tijdesn mijn project moet ik een app maken met React. De data data ik ophaalkomt
 
 ## Api
 Hieronder zie je welke API ik heb gebruikt met de sparql data query.
-`PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+`
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX edm: <http://www.europeana.eu/schemas/edm/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
@@ -27,7 +29,7 @@ SELECT ?obj ?datum ?titel ?link ?foto WHERE {
 
 Met deze applicatie kan je een simpel game instaleren. 
 
-## Voor dat je de app installeerd installeer de volgende op je map
+## Voor dat je de app installeerd heb je het volgende al in je folder hebben geinstalleerd
 * Install Node.js
 * Install a Code Editor
 * Een linux CLI(Command Line Interface) zoals bash 
@@ -38,28 +40,25 @@ Met deze applicatie kan je een simpel game instaleren.
 * React-router-dom
 
 ## Installation
-git clone https://github.com/GiovanniKaaijk/frontend-applications.git
-Get into the right folder
+`git clone https://github.com/Loquino/Frontend-Applications` 
 
-cd frontend-apllications/my-app/
-Install used npm packages
+`cd frontend-apllications/myfirstapp/`
 
-npm install
-Run the application
+### Install used npm packages
 
-npm run start
-Usage
-Start the application
+`npm install`
+### Run the application
 
-npm run start
-To compile the code
+`npm run start`
 
-npm run build
-Keep up to date
-Make sure you pull the repository once in a while since we are still working on this project, you can do this by using git pull
+Leef je uit :)!
 
-Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+### Credit
+- Giovanni
+- Kyle
+- Victor
+- Dorus
+- Kris
 
 License
 MIT
