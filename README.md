@@ -1,12 +1,12 @@
 Nationaal Stichting Wereld Culturen
-The perfect website to discover more about your most favorite spots in the wold. Schermafbeelding 2019-10-18 om 11 09 20
+Wordt geinpireerd door een mini carousel mini spel.
 
 ## Beschrijving 
 Tijdesn mijn project moet ik een app maken met React. De data data ik ophaalkomt van Netwerk Digitaal erfgoed. Dit maakt het mogelijk om je favoriete object te vinden door middel van het programma Sparql.
 
 ## Api
 Hieronder zie je welke API ik heb gebruikt met de sparql data query.
-
+`
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX edm: <http://www.europeana.eu/schemas/edm/>
 PREFIX dct: <http://purl.org/dc/terms/>
@@ -23,28 +23,23 @@ SELECT ?obj ?datum ?titel ?link ?foto WHERE {
   ?sub edm:type ?foto.
   
 } LIMIT 5000
-
+`
 
 ## Dit is wat mijn applicatie kan doen
 
 Met deze applicatie kan je een simpel game instaleren. 
 
 ## Voor dat je de app installeerd installeer de volgende op je map
-Install Node.js
-Install a Code Editor
-An CLI(Command Line Interface) like bash or iTerm
-Used (necessary sources)
-NPM
+* Install Node.js
+* Install a Code Editor
+* Een linux CLI(Command Line Interface) zoals bash 
+* Used (necessary sources)
+* NPM
+* React
+* Node-fetch
+* React-router-dom
 
-React
-
-Node-fetch
-
-React-router-dom
-
-When cloned, use npm install to install all the packages at once
-
-Installation
+## Installation
 git clone https://github.com/GiovanniKaaijk/frontend-applications.git
 Get into the right folder
 
