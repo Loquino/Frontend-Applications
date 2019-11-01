@@ -6,8 +6,7 @@ Tijdesn mijn project moet ik een app maken met React. De data data ik ophaalkomt
 
 ## Api
 Hieronder zie je welke API ik heb gebruikt met de sparql data query.
-`
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+`PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX edm: <http://www.europeana.eu/schemas/edm/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
@@ -22,8 +21,7 @@ SELECT ?obj ?datum ?titel ?link ?foto WHERE {
   ?sub edm:isShownBy ?link.
   ?sub edm:type ?foto.
   
-} LIMIT 5000
-`
+} LIMIT 5000 `
 
 ## Dit is wat mijn applicatie kan doen
 
