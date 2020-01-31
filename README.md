@@ -1,5 +1,4 @@
-Nationaal Stichting Wereld Culturen
-Wordt geinpireerd door een mini carousel mini spel.
+# Wordt geinpireerd door een mini carousel spel.
 ![Afbeelding van de Inpiredsel](https://raw.githubusercontent.com/Loquino/frontend-applications/master/proces%20afbeeldingen/foto-concept.png)
 ## Concept
 Het Concept was om een een carousel te maken met de objecten van rijksmuseum. De Bedoeling was om een platform te maken voor kunstenaars. Waar je doormiddel van een knop de inspiratie kan halen uit een random object ( beeld, schilderij, afbeelding). De gebruiker kan zijn inspiratiebron bewaren zodat hij op een ander moment het object sneller terug kan vinden.
