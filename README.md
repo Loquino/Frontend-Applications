@@ -1,11 +1,16 @@
-Nationaal Stichting Wereld Culturen
-Wordt geinpireerd door een mini carousel mini spel.
-
-## Beschrijving 
-Tijdesn mijn project moet ik een app maken met React. De data data ik ophaalkomt van Netwerk Digitaal erfgoed. Dit maakt het mogelijk om je favoriete object te vinden door middel van het programma Sparql.
+# Wordt geïnspireerd door een mini carrousel spel.
+![Afbeelding van de Inpiredsel](https://raw.githubusercontent.com/Loquino/frontend-applications/master/proces%20afbeeldingen/foto-concept.png)
+## Concept
+Het Concept was om een een carousel te maken met de objecten van rijksmuseum. De Bedoeling was om een platform te maken voor kunstenaars. Waar je doormiddel van een knop de inspiratie kan halen uit een random object ( beeld, schilderij, afbeelding). De gebruiker kan zijn inspiratiebron bewaren zodat hij op een ander moment het object sneller terug kan vinden.
 
 ## Api
+
+Tijdens mijn project moet ik een app maken met React. De data die ik ophaal komt van Netwerk Digitaal erfgoed. Dit maakt het mogelijk om je favoriete object te vinden door middel van het programma Sparql.
+
 Hieronder zie je welke API ik heb gebruikt met de sparql data query.
+
+```sparql
+
 `PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX edm: <http://www.europeana.eu/schemas/edm/>
 PREFIX dct: <http://purl.org/dc/terms/>
@@ -22,12 +27,12 @@ SELECT ?obj ?datum ?titel ?link ?foto WHERE {
   ?sub edm:type ?foto.
   
 } LIMIT 5000 `
-
+```
 ## Dit is wat mijn applicatie kan doen
 
 Met deze applicatie kan je een simpel game instaleren. 
 
-## Voor dat je de app installeerd installeer de volgende op je map
+## Voor dat je de app installeerd heb je het volgende al in je folder hebben geinstalleerd
 * Install Node.js
 * Install a Code Editor
 * Een linux CLI(Command Line Interface) zoals bash 
@@ -38,28 +43,25 @@ Met deze applicatie kan je een simpel game instaleren.
 * React-router-dom
 
 ## Installation
-git clone https://github.com/GiovanniKaaijk/frontend-applications.git
-Get into the right folder
+`git clone https://github.com/Loquino/Frontend-Applications` 
 
-cd frontend-apllications/my-app/
-Install used npm packages
+`cd frontend-apllications/myfirstapp/`
 
-npm install
-Run the application
+### Install used npm packages
 
-npm run start
-Usage
-Start the application
+`npm install`
+### Run the application
 
-npm run start
-To compile the code
+`npm run start`
 
-npm run build
-Keep up to date
-Make sure you pull the repository once in a while since we are still working on this project, you can do this by using git pull
+Leef je uit :)!
 
-Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+### Credit
+- Giovanni
+- Kyle
+- Victor
+- Dorus
+- Kris
 
 License
 MIT
